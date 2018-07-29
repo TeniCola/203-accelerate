@@ -17,6 +17,7 @@ get_header(); ?>
 <div id="primary" class="site-content sidebar">
 	<div class="main-content" role="main">
 		<?php while ( have_posts() ) : the_post();
+			$size = "full";
 			$services = get_field('services');
 			$client = get_field('client');
 			$link = get_field('site_link');
@@ -35,15 +36,15 @@ get_header(); ?>
 				</article>
 
 				<div class="case-study-images">
-					<?php if($image_1) { ?>
-						<img src="<?php echo $image_1; ?>"/>
-					<?php } ?>
-					<?php if($image_2) { ?>
-						<img src="<?php echo $image_2; ?>"/>
-					<?php } ?>
-					<?php if($image_3) { ?>
-						<img src="<?php echo $image_3; ?>"/>
-					<?php } ?>
+					<?php if($image_1) { 
+						echo wp_get_attachment_image( $image_1, $size );
+					} ?>					
+					<?php if($image_2) { 
+						echo wp_get_attachment_image( $image_2, $size );
+					} ?>
+					<?php if($image_3) { 
+						echo wp_get_attachment_image( $image_3, $size );
+					} ?>
 				</div>
 
 			<?php endwhile; // end of the loop. ?>
