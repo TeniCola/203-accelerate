@@ -127,6 +127,8 @@ div.case-study-images img {
     display: block;
     margin-bottom: 50px;
     border: 1px solid #dddddd;
+    width: 100%;
+	height: auto;
 }
 /* End Case Studies*/
 
