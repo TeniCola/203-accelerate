@@ -132,6 +132,54 @@ div.case-study-images img {
 }
 /* End Case Studies*/
 
+/*Contact form styles*/
+.nf-form-content {
+    margin: auto;
+    width: 600px;
+}
+
+.nf-field-label label {
+    font-size: .9em;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+
+#nf-field-1-container {
+    clear: none;
+    width: 290px;
+    margin-right: 20px;
+    float: left;
+}
+
+#nf-field-2-container {
+    clear: none;
+    width: 290px;
+    float: right;
+}
+
+#nf-field-4 {
+    float: right;
+}
+
+input[type="button"],
+input[type="submit"] {
+    background: #45ac9d;
+}
+
+.contact h2 {
+    margin: auto;
+    width: 600px;
+    font-size: 1.5em;
+}
+
+.contact p {
+    margin: auto;
+    padding-bottom: 40px;
+    width: 600px;
+}
+
+/*END Contact form styles*/
+
 /*Icon styles*/
 .dashicons {
     color: white;
