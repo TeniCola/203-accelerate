@@ -17,7 +17,7 @@ function accelerate_child_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
-// Create new custom post type for case studies
+// Create new custom post type for case studies and services (for about page)
 function create_custom_post_types() {
     register_post_type( 'case_studies',
         array(
@@ -28,6 +28,17 @@ function create_custom_post_types() {
             'public' => true,
             'has_archive' => true,
             'rewrite' => array( 'slug' => 'case-studies' ),
+        )
+    );
+    register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Our Services' ),
+                'singular_name' => __( 'Services' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'services' ),
         )
     );
 }

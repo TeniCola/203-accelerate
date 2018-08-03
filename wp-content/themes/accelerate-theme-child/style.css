@@ -87,6 +87,95 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/*About Page*/
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 290px;
+}
+
+.about-page p {
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    width: 535px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+div.about-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+div.about-intro h4 {
+    font: 700 1em/1.25 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.aboutpage-services {
+	list-style: none;
+	margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 5px;
+}
+
+.individual-services {
+    clear: both;
+    overflow: auto;
+    margin: auto 0;
+    padding-bottom: 60px;
+}
+
+.services {
+    float: left;
+    width: 640px;
+    margin: auto 0;
+    /* margin-left: 90px; */
+}
+
+.service-profile h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.icon-left img{
+    float: left;
+    width: auto;
+    padding-right: 100px;
+}
+
+.icon-right img{
+    float: right;
+}
+
+.contact-button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button h4 {
+    float: left;
+    width: 40%;
+    font-size: 1.25em;
+    text-transform: none;
+}
+
+.contact-button a {
+    float: left;
+    margin-top: 30px;
+    font-size: 1.25em;
+}
+
+.contact-button .button {
+    padding: 1em 3.25em;
+}
+
+/*END About page*/
+
 /* Case Studies*/
 
 article.case-study {
