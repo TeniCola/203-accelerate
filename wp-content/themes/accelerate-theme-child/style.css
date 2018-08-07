@@ -204,7 +204,7 @@ aside.case-study-sidebar h4 {
 }
 
 aside.case-study-sidebar span {
-    color: #000000;
+    color: #373737;
 }
 
 div.case-study-images {
@@ -268,6 +268,38 @@ input[type="submit"] {
 }
 
 /*END Contact form styles*/
+
+/*404 Status styles*/
+
+.error-page h5 {
+    font-size: 1.5em;
+    /* font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif; */
+    font-weight: 700;
+    text-transform: none;
+    color: #45ac9d;
+}
+
+.error-page a {
+    font-weight: 700;
+    color: #45ac9d;
+}
+
+/*END 404 Status styles*/
+
+/*Final styles*/
+
+input[type="submit"] {
+    padding: 10px 50px 17px 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.a2a_menu a {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/*END Final styles*/
+
 
 /*Icon styles*/
 .dashicons {
