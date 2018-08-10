@@ -288,6 +288,18 @@ input[type="submit"] {
 
 /*Final styles*/
 
+div#secondary {
+    float: left;
+    width: auto;
+    padding-left: 40px;
+}
+
+div#secondary h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #a6a6a6;
+}
+
 input[type="submit"] {
     padding: 10px 50px 17px 50px;
     margin-top: 10px;
